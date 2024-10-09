@@ -17,8 +17,7 @@
 </head>
 <body stlye="background-color: #FF7B54"; color: #FFFF>
     <header class="header">
-        <a class="header__link" href="/">CSS Day</a>
-        
+        <a class="header__link" href="/">CSS Day</a>        
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__list-item"><a href="#">About</a></li>
@@ -26,13 +25,17 @@
                     <li class="nav__list-item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <img src="./icons/shopping-cart.svg" alt="Shopping cart">
-        
-    </header>
-    <main>
-        <p>CSS Day is a conference for developers who love beautiful websites.</p>
-        <p>4-8 June 2023</p>
-        <button>Buy Tickets <img src="./icons/arrow-right.svg" alt="Right arrow"></button>
+		<img src="./icons/shopping-cart.svg" alt="Shopping cart">
+	</header>
+
+		
+    <main class="main">
+        <p class="main__heading">CSS Day is a conference for developers who love beautiful websites.</p>
+        <p class="main__sub-heading">4-8 June 2023</p>
+		<div class="button-container">
+			<button class="button button--primary">Buy Tickets <img src="./icons/arrow-right.svg" alt="Right arrow" class="button__icon"></button>
+			<button class="button button--secondary">Contact Us</button>
+		</div>
     </main>
 </body>
 </html>
