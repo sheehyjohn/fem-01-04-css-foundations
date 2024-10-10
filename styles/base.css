@@ -35,6 +35,10 @@ a {
 	text-decoration: none;
 }
 
+.main {
+	padding: 150px
+}
+
 .header {
 	display: grid;
 	grid-template-columns: 1fr 3fr 34px;
@@ -105,4 +109,11 @@ a {
 /* Test Class for Extension Highlighing */
 .testClass {
 	color	: red;
+}
+
+.img {
+	max-height: 10%;
+	width: auto;
+	border: 2px solid rgb(255, 0, 0);
+
 }
