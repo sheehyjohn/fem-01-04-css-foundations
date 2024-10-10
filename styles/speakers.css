@@ -1,11 +1,9 @@
 @import "./base.css";
 
 
- .main__title {
+.speakers .main__title {
 	font-size: 98px;
 }
-
-
 
 /* Class names in HTML for speakers
 speaker__wrapper
@@ -14,3 +12,26 @@ speaker__name
 speaker__company
 company__bio
 */
+
+.speaker__photo {
+	width: 310px;
+	height: 310px;
+	object-fit: cover;
+/* 	object-position: top */
+ }
+
+.speaker__photo--top{
+	object-position: top
+}
+
+.speaker__name {
+	font-size: 32px;	
+}
+
+.speaker__company {
+	font-size: 24px;
+}
+
+.speaker__bio {
+	font-size: 20px;
+}
