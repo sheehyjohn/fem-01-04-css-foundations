@@ -1,7 +1,7 @@
 @import "./base.css";
 
 
-.speakers .main__title {
+.main__title {
 	font-size: 98px;
 }
 
@@ -16,7 +16,6 @@ company__bio
 .speakers__wrapper {	
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 200px;
 	grid-row-gap: 12px;
 }
@@ -52,4 +51,14 @@ company__bio
 .speaker__company,
 .speaker__bio {
 	color: var(--color-text-on-secondary);
+}
+
+@media (max-width: 1000px) {
+  /*   .body--secondary {
+        background-color: blue;
+    } */
+
+    .speakers__wrapper {
+        grid-template-columns: 1fr; /* Adjust grid columns for smaller screens */
+    }
 }
