@@ -14,9 +14,12 @@
 }
 
 .hom .menu path{
-	fill: var(--color-teprimary);
+	fill: var(--color-text-on-primary);
 }
 
+.home .menu path {
+	fill: var(--color-text-on-prima;
+}
 
 @media (max-width: 1220px) {
 	.home .main__heading {

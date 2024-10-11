@@ -62,3 +62,11 @@ company__bio
         grid-template-columns: 1fr; /* Adjust grid columns for smaller screens */
     }
 }
+
+@media (max-width: 840px) {
+	.nav {
+		background-color: var(--color-text-on-primary);
+		overflow: hidden;
+	
+	}
+}
