@@ -13,12 +13,8 @@
 	font-weight: normal;
 }
 
-.hom .menu path{
-	fill: var(--color-text-on-primary);
-}
-
 .home .menu path {
-	fill: var(--color-text-on-prima;
+	fill: var(--color-text-on-primary);
 }
 
 @media (max-width: 1220px) {

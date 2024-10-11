@@ -170,6 +170,7 @@ a {
 	.nav__list-item {
 		font-size: 60px;
 		font-weight: bold;
+	}
 
 	.header {
 		display: grid;
