@@ -13,6 +13,10 @@
 	font-weight: normal;
 }
 
+.hom .menu path{
+	fill: var(--color-teprimary);
+}
+
 
 @media (max-width: 1220px) {
 	.home .main__heading {
