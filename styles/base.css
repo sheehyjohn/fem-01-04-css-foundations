@@ -1,6 +1,7 @@
 :root{
 	--color-primary: #FF7B54;			
 	--color-text-on-primary: #FFFFFF;
+	--color-text-on-secondary: #000000;
 	--color-button-border: var(--color-text-on-primary);
 
 	--color-button-primary-bg: var(--color-text-on-primary);

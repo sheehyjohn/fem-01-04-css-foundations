@@ -13,11 +13,25 @@ speaker__company
 company__bio
 */
 
+.speakers__wrapper {	
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 200px;
+	grid-row-gap: 12px;
+}
+
+
+
+.speaker__wrapper {
+	max-width: 460px;
+}
+
 .speaker__photo {
 	width: 310px;
 	height: 310px;
 	object-fit: cover;
-/* 	object-position: top */
+	margin-bottom: 36px;
  }
 
 .speaker__photo--top{
@@ -26,12 +40,16 @@ company__bio
 
 .speaker__name {
 	font-size: 32px;	
+	margin-bottom: 20px;
 }
+
 
 .speaker__company {
 	font-size: 24px;
+	margin-bottom: 32px;
 }
-
+  
+.speaker__company,
 .speaker__bio {
-	font-size: 20px;
+	color: var(--color-text-on-secondary);
 }
